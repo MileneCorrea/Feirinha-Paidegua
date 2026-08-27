@@ -7,7 +7,7 @@ menu.innerHTML = `
             <div class="topo"> 
                 <div class="logo-busca">
                     <div class="logo">
-                        <img src="/Tela Inicial/img/logocomfundobranco.png" alt="Feirinha Pai d'Egua">
+                        <img src="Tela Inicial/img/logocomfundobranco.png" alt="Feirinha Pai d'Egua">
                     </div>
 
                     <div class="cep">
@@ -24,9 +24,9 @@ menu.innerHTML = `
 
                <nav class="menu-conta">
                     <ul class="lista-conta">
-                        <li><a href="/PastaDelogincomplet/logininicio.html"><i class="fa-regular fa-user"></i> <span>Minha Conta</span></a></li>
+                        <li><a href="PastaDelogincomplet/logininicio.html"><i class="fa-regular fa-user"></i> <span>Minha Conta</span></a></li>
                         <li><a href="#"><i class="fa-regular fa-heart"></i> <span>Favoritos</span></a></li>
-                        <li><a href="/sacola/pagde_venda.html"><i class="fa-solid fa-bag-shopping"></i> <span>Sacola</span></a></li>
+                        <li><a href="sacola/pagde_venda.html"><i class="fa-solid fa-bag-shopping"></i> <span>Sacola</span></a></li>
                     </ul>
                 </nav>
             </div>    

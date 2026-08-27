@@ -511,11 +511,13 @@ h2 {
 
 /* Sobrescreve o btn-fazer-pedido só dentro do footer-final da Sacola */
 .footer-final .btn-fazer-pedido {
-  width: 60%;
-  margin-left: 220px;
-  padding: 14px 0;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 14px 16px;
   font-size: 14px;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .sugestao-secao {

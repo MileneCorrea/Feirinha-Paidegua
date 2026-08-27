@@ -6,16 +6,16 @@ rodape.innerHTML = `
     <footer class="site-footer">
         <div class="container footer-grid">
             <div class="footer-col brand-col">
-                <img src="/Sobre Nós/img/logocomfundobranco.png" alt="Logo Feirinha Pai d'Égua" class="footer-logo">
+                <img src="img/logo.jpeg" alt="Logo Feirinha Pai d'Égua" class="footer-logo">
                 <p>Valorizando a arte, a cultura e a identidade paraense através das mãos dos nossos mestres artesãos.</p>
             </div>
             <div class="footer-col links-col">
                 <h4>Navegação</h4>
                 <ul>
-                    <li><a href="/Tela Inicial/pagina_inicial.html">Início</a></li>
-                    <li><a href="/História do Artesão/historiaartesao.html">Artesãos</a></li>
-                    <li><a href="/Categorias/pagina_categorias.html">Categorias</a></li>
-                    <li><a href="/Sobre Nós/sobrenos.html">Sobre a Feirinha</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="historiaartesao.html">Artesãos</a></li>
+                    <li><a href="Todos_os_Produtos.html">Categorias</a></li>
+                    <li><a href="sobrenos.html">Sobre a Feirinha</a></li>
                 </ul>
             </div>
             <div class="footer-col contact-col">

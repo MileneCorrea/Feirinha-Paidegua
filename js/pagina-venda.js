@@ -175,6 +175,11 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
+      if (botao.closest(".footer-final")) {
+        window.location.href = "checkout.html";
+        return;
+      }
+
       // Forma de pagamento na página de finalização
       const radiosPagamento = document.querySelectorAll('input[name="pagamento"]');
       let pagamento = null;

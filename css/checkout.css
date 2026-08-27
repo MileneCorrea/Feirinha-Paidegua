@@ -9,7 +9,7 @@ body {
   background-color: #F7EDE3; /*#E6D3CB;*/                    /* Fundo rosa/terroso da página */
   color: #333333;
   margin: 0;
-  padding: 15px;
+  padding: 0;
   padding-bottom: 90px;                             /* Espaço pra barra fixa inferior não cobrir conteúdo */
 }
 
@@ -19,11 +19,43 @@ body {
 .checkout-container {
   max-width: 90%;
   width: 99%;
-  margin: 0 auto;
+  margin: 15px auto 0;
   background-color: #FBF4EA;                       /* Cream de fundo dos blocos */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.voltar-sacola {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 18px 0;
+  color: #0E4612;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.voltar-sacola:hover {
+  color: #1B5E20;
+}
+
+.voltar-sacola .material-symbols-outlined {
+  font-size: 20px;
+}
+
+.portal_container {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.menu .logo-busca {
+  min-width: 0;
+}
+
+.menu .busca {
+  min-width: 280px;
 }
 
 /* Faixa bege fina que separa os blocos */
@@ -38,6 +70,12 @@ body {
 /* Blocos de conteúdo */
 .bloco {
   padding: 16px 18px;
+}
+
+@media (max-width: 768px) {
+  .menu .busca {
+    min-width: 0;
+  }
 }
 
 h2 {

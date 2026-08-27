@@ -1,5 +1,8 @@
-const menu =
-    document.querySelector("#menu");
+const menu = document.querySelector("#menu");
+
+if (!menu) {
+    throw new Error("Elemento #menu não encontrado.");
+}
 
 menu.innerHTML = `
 <header class="menu">
@@ -7,7 +10,7 @@ menu.innerHTML = `
             <div class="topo"> 
                 <div class="logo-busca">
                     <div class="logo">
-                        <img src="img/logomasdetalhada.webp" alt="Feirinha Pai d'Egua">
+                        <img src="img/logocomfundobranco.png" alt="Feirinha Pai d'Egua">
                     </div>
 
                     <div class="cep">
@@ -24,9 +27,9 @@ menu.innerHTML = `
 
                <nav class="menu-conta">
                     <ul class="lista-conta">
-                        <li><a href="/PastaDelogincomplet/logininicio.html"><i class="fa-regular fa-user"></i> <span>Minha Conta</span></a></li>
+                        <li><a href="logininicio.html"><i class="fa-regular fa-user"></i> <span>Minha Conta</span></a></li>
                         <li><a href="#"><i class="fa-regular fa-heart"></i> <span>Favoritos</span></a></li>
-                        <li><a href="sacola/pagde_venda.html"><i class="fa-solid fa-bag-shopping"></i> <span>Sacola</span></a></li>
+                        <li><a href="pagde_venda.html"><i class="fa-solid fa-bag-shopping"></i> <span>Sacola</span></a></li>
                     </ul>
                 </nav>
             </div>    
@@ -49,10 +52,10 @@ menu.innerHTML = `
                 </div>
 
                 <ul class="lista-menu">
-                    <li><a href="/index.html">Início</a></li>
-                    <li><a href="/Produtos Loja/Todos_os_Produtos.html">Produtos</a></li>
-                    <li><a href="/História do Artesão/html/historiaartesao.html">Artesãos</a></li>
-                    <li><a href="/Sobre Nós/html/sobrenos.html">Sobre Nós</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="Todos_os_Produtos.html">Produtos</a></li>
+                    <li><a href="historiaartesao.html">Artesãos</a></li>
+                    <li><a href="sobrenos.html">Sobre Nós</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </nav>

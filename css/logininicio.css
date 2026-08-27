@@ -15,7 +15,7 @@ body{
     align-items:center;
     background:linear-gradient(135deg,#f8f0e5,#f2ddbd);
     padding:20px;
-    background-image: url(/PastaDelogincomplet/img/imagenovaescur.png);
+    background-image: url(../img/imagenovaescur.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,6 +24,19 @@ body{
     justify-content: center;
     align-items: center;
 
+}
+
+.logo-canto {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    z-index: 10;
+}
+
+.logo-canto img {
+    display: block;
+    width: 40px;
+    height: auto;
 }
 
 .container{
@@ -40,6 +53,7 @@ body{
 
 .left{
 
+    position: relative;
     width:45%;
     background:#fff5e8;
     display:flex;
@@ -55,6 +69,11 @@ body{
     width:260px;
     margin-bottom:30px;
 
+}
+
+.left .logo-canto img {
+    width: 60px;
+    margin-bottom: 0;
 }
 
 .left h2{

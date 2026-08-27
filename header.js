@@ -7,7 +7,7 @@ menu.innerHTML = `
             <div class="topo"> 
                 <div class="logo-busca">
                     <div class="logo">
-                        <img src="img/logocomfundobranco.png" alt="Feirinha Pai d'Egua">
+                        <img src="img/logomasdetalhada.webp" alt="Feirinha Pai d'Egua">
                     </div>
 
                     <div class="cep">
